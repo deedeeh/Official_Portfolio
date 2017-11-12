@@ -1,4 +1,10 @@
 
+/*************************** Fonts ***************************/
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Lalezar');
+
+
 /*************************** General style ***************************/
 
 body {
@@ -12,7 +18,7 @@ body {
 }
 
 .container {
-  margin: 2em 0 0;
+  margin: 1.7em 0 0;
 }
 
 
@@ -20,24 +26,62 @@ body {
 
 .my-name {
   display: inline-block;
+  font-size: 1.999em;
+  line-height: 1.2;
 }
 
 
 /*************************** Navbar ***************************/
 
-.nav-ul {
-  margin: 2em 0 0;
+/*.nav-ul {
+  margin: 0;
   padding: 0;
   list-style-type: none;
+  height: 419px;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
 .nav-list {
-  
+  margin: 0;
+  width: 320px;
+  height: 140px;
+  padding: 4em 0;
+}*/
+
+.nav-parent {
+  margin: 1.3em 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .nav-link {
   text-decoration: none;
+  color: #fff;
+  padding: 1em 2.3em;
+  font-size: 1.999em;
+  font-family: 'Francois One', Verdana, sans-serif;
+  font-family: 'Lalezar', cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.background {
+  padding: 2.6em 0;
+}
+
+.bg-1 {
+  background-color: #1BA7B6;
+}
+
+.bg-2 {
+  background-color: #1C2226;
+}
+
+.bg-3 {
+  background-color: #CA2550;
 }

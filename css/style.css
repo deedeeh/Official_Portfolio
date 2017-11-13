@@ -89,6 +89,8 @@ body {
 
 /*************************** Media queries ***************************/
 
+/******************** Different mobile sizes ********************/
+
 @media (min-width: 360px) and (max-height: 670px) {
   .container {
     margin: 2em 0 0;
@@ -99,5 +101,41 @@ body {
 
   .background {
     padding: 3.3em 0;
+  }
+}
+
+@media (min-width: 375px) and (max-height: 667px) {
+  .background {
+    padding: 3.6em 0;
+  }
+}
+
+@media (min-width: 412px) and (max-height: 732px) {
+  .container {
+    margin: 3em 0 0;
+  }
+  .nav-parent {
+    margin: 1.9em 0 0;
+  }
+  .nav-link {
+    padding: 1.8em 4.2em;
+  }
+  .background {
+    padding: 4em 0;
+  }
+}
+
+@media (min-width: 414px) and (max-height: 736px) {
+  .container {
+    margin: 3.4em 0 0;
+  }
+  .nav-parent {
+    margin: 1.8em 0 0;
+  }
+  .nav-link {
+    padding: 1.8em 4.2em;
+  }
+  .background {
+    padding: 4em 0;
   }
 }

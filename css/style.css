@@ -1,8 +1,7 @@
 
 /*************************** Fonts ***************************/
 
-@import url('https://fonts.googleapis.com/css?family=Francois+One');
-@import url('https://fonts.googleapis.com/css?family=Lalezar');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700');
 
 
 /*************************** General style ***************************/
@@ -24,117 +23,35 @@ body, html {
 
 /*************************** Header ***************************/
 
-header {
+.header {
   text-align: center;
+  margin: 0 2em;
 }
 
-.my-name {
-  display: inline-block;
-  font-size: 1.999em;
-  line-height: 1.2;
+.my-logo {
+  margin-bottom: 1.5em;
 }
 
 
-/*************************** Navigation ***************************/
+/************ Navigation ************/
 
-.nav-parent {
-  margin: 1.3em 0 0;
+.nav-ul {
+  margin: 0;
   padding: 0;
-  text-align: center;
-}
-
-.special-nav {
+  list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.nav-link, .contact-link {
+.nav-link {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   padding: 1em 0;
-  font-size: 1.999em;
-  font-family: 'Francois One', Verdana, sans-serif;
-  font-family: 'Lalezar', cursive;
+  font-size: 1em;
+  font-family: 'Source Sans Pro', Verdana, sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.1em;
+  letter-spacing: 0.05em;
 }
-
-.contact-link {
-  letter-spacing: 0.5em;
-}
-
-div[class="bg-1"] {
-  padding: 2.6em 0;
-  background-color: #41a1b9;
-}
-
-div[class="bg-2"] {
-  padding: 3.7em 0;
-  background-color: #1A1A1D;
-}
-
-div [class="bg-3"] {
-  padding: 3.5em 0;
-  display: block;
-  background-color: #ac0b3c;
-}
-
-.bg-1, .bg-2 {
-  width: 50%;
-}
-
-
-/*************************** Media queries ***************************/
-
-/******************** Different mobile sizes ********************/
-
-/*@media (min-width: 360px) and (max-height: 670px) {
-  .container {
-    margin: 2em 0 0;
-  }
-  .nav-link {
-    padding: 1.6em 3.5em;
-  }
-
-  .background {
-    padding: 3.3em 0;
-  }
-}
-
-@media (min-width: 375px) and (max-height: 667px) {
-  .background {
-    padding: 3.6em 0;
-  }
-}
-
-@media (min-width: 412px) and (max-height: 732px) {
-  .container {
-    margin: 3em 0 0;
-  }
-  .nav-parent {
-    margin: 1.9em 0 0;
-  }
-  .nav-link {
-    padding: 1.8em 4.2em;
-  }
-  .background {
-    padding: 4em 0;
-  }
-}
-
-@media (min-width: 414px) and (max-height: 736px) {
-  .container {
-    margin: 3.4em 0 0;
-  }
-  .nav-parent {
-    margin: 1.8em 0 0;
-  }
-  .nav-link {
-    padding: 1.8em 4.2em;
-  }
-  .background {
-    padding: 4em 0;
-  }
-}*/

@@ -17,7 +17,7 @@ body, html {
 }
 
 .container {
-  margin: 1.8em 0 0;
+  margin: 1.4em 0 0;
 }
 
 
@@ -29,8 +29,8 @@ body, html {
 }
 
 .my-logo {
-  margin-bottom: 1.4em;
-  width: 80px;
+  margin-bottom: 1em;
+  width: 70px;
 }
 
 
@@ -66,23 +66,31 @@ body, html {
 
 /*************************** About Page ***************************/
 
+.about-section {
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+}
+
 .my-portrait {
   width: 100%;
   height: auto;
-  margin: 2em 0 0.5em;
+  margin-bottom: 1em;
 }
 
 .intro-heading {
   margin: 0 0.8em;
   text-align: center;
+  font-style: italic; /*choose a font that has normal and italic styles to use in here*/
 }
 
 .about-paragraph {
   margin: 0 1em;
+  line-height: 1.4;
 }
 
 .change-size {
   font-size: 0.8em;
+  font-style: normal;
 }
 
 
@@ -90,5 +98,51 @@ body, html {
 
 .footer {
   text-align: center;
-  margin: 2em 0 0.6em;
+  background-color: #000;
+  color: #fff;
+  padding: 0.8em 0;
+}
+
+
+/*************************** Media Queries ***************************/
+
+@media (min-width: 360px) {
+  .container {
+    margin: 1.8em 0 0;
+  }
+  .header {
+    margin: 0 2em;
+  }
+  .intro-heading {
+    margin: 0 1.5em;
+  }
+  .about-paragraph {
+    margin: 0 2em;
+  }
+}
+
+@media (min-width: 480px) {
+  .container {
+    margin: 2em 0 0;
+  }
+  .header {
+    margin: 0 4em;
+  }
+  .nav-link {
+    padding: 1em 0.5em;
+  }
+  .about-section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .my-portrait {
+    margin-bottom: 2em;
+  }
+  .intro-heading {
+    margin: 0 1.6em;
+    font-size: 1.999em;
+  }
+  .about-paragraph {
+    margin: 0 4em;
+  }
 }

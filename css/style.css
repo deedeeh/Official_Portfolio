@@ -67,8 +67,8 @@ body, html {
 /*************************** About Page ***************************/
 
 .about-section {
-  margin-top: 1.4em;
-  margin-bottom: 1.4em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .my-portrait {
@@ -97,7 +97,7 @@ body, html {
 /*************************** Work Page ***************************/
 
 .work-section {
-  margin: 1.4em 0;
+  margin: 1.5em 0;
 }
 
 .project-1, .project-2 {
@@ -105,11 +105,27 @@ body, html {
   border: 1px solid #DFE1E1;
 }
 
-.project-link {
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
+.project-1 {
+  margin-bottom: -3px;
 }
+
+
+/*************************** Contact Page ***************************/
+
+.contact-intro {
+  margin: 1.5em 1em 1em;
+  line-height: 1.4;
+}
+
+.icon {
+  width: 35px;
+}
+
+.text-icon {
+  vertical-align: 12px;
+  padding-left: 4px;
+}
+
 
 /*************************** Footer ***************************/
 
@@ -119,7 +135,6 @@ body, html {
   color: #fff;
   padding: 0.8em 0;
 }
-
 
 /*************************** Media Queries ***************************/
 

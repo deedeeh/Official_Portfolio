@@ -127,6 +127,7 @@ body, html {
 }
 
 .social-media {
+  margin: auto;
   width: 200px;
   display: flex;
   justify-content: space-around;

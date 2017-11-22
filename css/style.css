@@ -118,7 +118,7 @@ body, html {
 }
 
 .icon {
-  width: 35px;
+  width: 36px;
 }
 
 .text-icon {
@@ -126,8 +126,15 @@ body, html {
   padding-left: 4px;
 }
 
+.social-media {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .social-icon {
-  width: 35px;
+  width: 36px;
 }
 
 /*************************** Footer ***************************/

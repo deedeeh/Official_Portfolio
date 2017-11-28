@@ -147,6 +147,12 @@ body, html {
   width: 36px;
 }
 
+.social-icon:hover {
+  padding: 1px;
+  border: 3px solid #000;
+  border-radius: 50%;
+}
+
 /*************************** Footer ***************************/
 
 .footer {

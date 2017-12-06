@@ -120,6 +120,7 @@ body, html {
   margin-bottom: 0;
   font-family: 'Lato', Verdana, sans-serif;
   font-size: 1.414em;
+  letter-spacing: 0.04em;
 }
 
 .contact-heading + p {
@@ -131,19 +132,34 @@ body, html {
 }
 
 .text-icon {
-  vertical-align: 12px;
   padding-left: 4px;
+  vertical-align: 12px;
   font-style: italic;
   font-size: 1.1em;
 }
 
 .social-media {
   margin: auto;
-  padding-top: 1em;
-  width: 200px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.social-link:hover {
+  color: #FF5D5D;
+}
+
+.social-text {
+  padding-left: 4px;
+  vertical-align: 12px;
 }
 
 .social-icon:hover {
@@ -179,6 +195,12 @@ body, html {
   .about-paragraph {
     margin: 0 2em;
   }
+  .contact {
+    margin: 2.5em 2em 1em;
+  }
+  .social-media {
+    flex-flow: column nowrap;
+  }
 }
 
 @media (min-width: 480px) {
@@ -204,6 +226,9 @@ body, html {
   .about-paragraph {
     margin: 0 auto;
     width: 373px;
+  }
+  .contact {
+    margin: 3em 5em 1em;
   }
 }
 
@@ -252,7 +277,7 @@ body, html {
     margin-bottom: 1em;
   }
   .contact {
-    margin: 2em;
+    margin: 3em 5em 3em;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -265,7 +290,9 @@ body, html {
   .contact-heading {
     margin-bottom: 0.6em;
     font-size: 1.414em;
-    letter-spacing: 0.04em;
+  }
+  .email {
+    padding-top: 4px;
   }
   .icon, .social-icon {
     width: 40px;
@@ -274,8 +301,5 @@ body, html {
     margin: 4em 0 0;
     padding-top: 0;
     width: 40%;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
   }
 }

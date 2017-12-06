@@ -62,8 +62,7 @@ body, html {
 /*************************** About Page ***************************/
 
 .about-section {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin: 1.5em 0;
 }
 
 .my-portrait {
@@ -105,7 +104,7 @@ body, html {
 }
 
 .project-1 {
-  margin-bottom: -3px;
+  margin-bottom: 0.6em;
 }
 
 
@@ -127,7 +126,7 @@ body, html {
   margin-top: 0.4em;
 }
 
-.icon {
+.icon, .social-icon {
   width: 36px;
 }
 
@@ -147,15 +146,12 @@ body, html {
   align-items: center;
 }
 
-.social-icon {
-  width: 36px;
-}
-
 .social-icon:hover {
   padding: 1px;
   border: 3px solid #000;
   border-radius: 50%;
 }
+
 
 /*************************** Footer ***************************/
 
@@ -166,6 +162,7 @@ body, html {
   background-color: #000;
   color: #fff;
 }
+
 
 /*************************** Media Queries ***************************/
 
@@ -195,8 +192,7 @@ body, html {
     padding: 1em 0.5em;
   }
   .about-section {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin: 2em 0;
   }
   .my-portrait {
     margin-bottom: 2em;
@@ -206,7 +202,8 @@ body, html {
     font-size: 1.999em;
   }
   .about-paragraph {
-    margin: 0 4em;
+    margin: 0 auto;
+    width: 373px;
   }
 }
 
@@ -220,11 +217,65 @@ body, html {
   }
   .my-logo {
     margin-bottom: 0;
+    width: 74px;
   }
   .nav-ul {
-    padding: 1.2em 0;
+    padding: 1.3em 0;
   }
   .nav-link {
     padding: 1.2em;
+    font-size: 1.11em;
+    letter-spacing: 0.07em;
+  }
+  .about-section {
+    margin: 2em 0 2.5em;
+  }
+  .my-portrait {
+    margin-bottom: 2.5em;
+  }
+  .intro-heading {
+    margin: 0 3.5em;
+    font-size: 2.6em;
+  }
+  .about-paragraph {
+    width: 485px;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  .work-section {
+    margin: 1.5em 8em;
+  }
+  .project-1, .project-2 {
+    border-radius: 4px;
+  }
+  .project-1 {
+    margin-bottom: 1em;
+  }
+  .contact {
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    line-height: 1.6;
+    font-size: 1em;
+  }
+  .contact-info {
+    width: 50%;
+  }
+  .contact-heading {
+    margin-bottom: 0.6em;
+    font-size: 1.414em;
+    letter-spacing: 0.04em;
+  }
+  .icon, .social-icon {
+    width: 40px;
+  }
+  .social-media {
+    margin: 4em 0 0;
+    padding-top: 0;
+    width: 40%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 }

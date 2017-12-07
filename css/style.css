@@ -131,6 +131,12 @@ body, html {
   width: 36px;
 }
 
+.icon:hover {
+  background-color: rgb(255, 93, 93);
+  background-color: rgba(255, 93, 93, 0.7);
+  border-radius: 49%;
+}
+
 .text-icon {
   padding-left: 4px;
   vertical-align: 12px;
@@ -163,9 +169,9 @@ body, html {
 }
 
 .social-icon:hover {
-  padding: 1px;
-  border: 3px solid #000;
-  border-radius: 50%;
+  background-color: rgb(255, 93, 93);
+  background-color: rgba(255, 93, 93, 0.7);
+  border-radius: 49%;
 }
 
 
@@ -187,7 +193,10 @@ body, html {
     margin: 1.8em 0 0;
   }
   .header {
-    margin: 0 2em;
+    margin: 0 2.5em;
+  }
+  .nav-ul {
+    justify-content: space-between;
   }
   .intro-heading {
     margin: 0 1.5em;
@@ -209,6 +218,10 @@ body, html {
   }
   .header {
     margin: 0 4em;
+  }
+  .nav-ul {
+    margin: auto;
+    width: 350px;
   }
   .nav-link {
     padding: 1em 0.5em;
@@ -246,6 +259,7 @@ body, html {
   }
   .nav-ul {
     padding: 1.3em 0;
+    width: auto;
   }
   .nav-link {
     padding: 1.2em;
@@ -298,7 +312,7 @@ body, html {
     width: 40px;
   }
   .social-media {
-    margin: 4em 0 0;
+    margin: 4.5em 0 0;
     padding-top: 0;
     width: 40%;
   }

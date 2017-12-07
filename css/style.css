@@ -293,7 +293,7 @@ body, html {
     margin-bottom: 1em;
   }
   .contact {
-    margin: 3em 5em 3em;
+    margin: 3em 5em;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -316,6 +316,7 @@ body, html {
   .social-media {
     margin: 4.5em 0 0;
     padding-top: 0;
+    padding-left: 1em;
     width: 40%;
   }
 }
@@ -347,7 +348,40 @@ body, html {
   .about-paragraph {
     width: 450px;
   }
+  .work-section {
+    margin: 3em 0;
+    text-align: center;
+  }
+  .project-1, .project-2 {
+    display: inline-block;
+    width: 46%;
+  }
+  .project-1 {
+    margin-bottom: 0;
+    margin-right: 1em;
+  }
+  .contact {
+    justify-content: space-around;
+  }
+  .contact-info {
+    width: 50%;
+  }
+  .contact-heading {
+    margin-bottom: 1em;
+  }
+  .social-media {
+    margin: 4.5em 0 0;
+    padding-top: 0;
+    padding-left: 4.5em;
+    width: 40%;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 }
-@media (min-width: 1224px) {
-  
-}
+/*@media (min-width: 1224px) {
+
+}*/

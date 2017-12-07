@@ -99,7 +99,9 @@ body, html {
 }
 
 .project-1, .project-2 {
+  display: block;
   width: 100%;
+  height: auto;
   border: 1px solid #DFE1E1;
 }
 
@@ -251,7 +253,7 @@ body, html {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 0 1.2em 0 2em;
+    margin: 0 3em 0 4em;
   }
   .my-logo {
     margin-bottom: 0;
@@ -267,13 +269,13 @@ body, html {
     letter-spacing: 0.07em;
   }
   .about-section {
-    margin: 2em 0 2.5em;
+    margin: 2em 4em 2.5em;
   }
   .my-portrait {
     margin-bottom: 2.5em;
   }
   .intro-heading {
-    margin: 0 3.5em;
+    margin: 0 2em;
     font-size: 2.6em;
   }
   .about-paragraph {
@@ -316,4 +318,36 @@ body, html {
     padding-top: 0;
     width: 40%;
   }
+}
+@media (min-width: 1024px) {
+  .header {
+    margin: 0 3em 0 4.4em;
+  }
+  .nav-link {
+    padding: 1.4em;
+  }
+  .about-section {
+    margin: 3em 2em 2.5em 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .my-portrait {
+    width: 52%;
+  }
+  .about-container {
+    margin: auto;
+    padding-left: 12px;
+    align-self: center;
+  }
+  .intro-heading {
+    margin: 0;
+  }
+  .about-paragraph {
+    width: 450px;
+  }
+}
+@media (min-width: 1224px) {
+  
 }

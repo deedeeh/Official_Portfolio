@@ -161,6 +161,11 @@ body, html {
   font-style: italic;
 }
 
+/*.social-link:focus {
+  color: skyblue;
+  outline:none;
+}*/ /* how to focus on social-link and social-icon at the same time? */
+
 .social-link:hover {
   color: #FF5D5D;
 }
@@ -431,6 +436,20 @@ body, html {
     width: 476px;
     line-height: 1.6;
     font-size: 1.2em;
+  }
+  .project-1, .project-2 {
+    width: 43%;
+  }
+  .project-1 {
+    margin-right: 2em;
+  }
+  .contact-info {
+    width: 510px;
+  }
+  .social-media {
+    margin: 4em 0 0;
+    padding-left: 8em;
+    width: 40%;
   }
 
 }

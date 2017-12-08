@@ -269,7 +269,7 @@ body, html {
     letter-spacing: 0.07em;
   }
   .about-section {
-    margin: 2em 4em 2.5em;
+    margin: 2em 4.5em 2.5em;
   }
   .my-portrait {
     margin-bottom: 2.5em;
@@ -338,7 +338,7 @@ body, html {
     width: 52%;
   }
   .about-container {
-    margin: auto;
+    margin: 0 auto 1.2em;
     padding-left: 12px;
     align-self: center;
   }
@@ -346,7 +346,7 @@ body, html {
     margin: 0;
   }
   .about-paragraph {
-    width: 450px;
+    width: 430px;
   }
   .work-section {
     margin: 3em 0;
@@ -382,6 +382,55 @@ body, html {
     right: 0;
   }
 }
-/*@media (min-width: 1224px) {
+@media (min-width: 1224px) {
+  .container {
+    margin: 2.5em 0 0;
+  }
+  .header {
+    margin: 0 4em 0 5.4em;
+  }
+  .nav-link {
+    padding: 1.6em;
+  }
+  .my-portrait {
+    width: 53%;
+  }
+  .work-section {
+    margin: 3em 0;
+  }
+  .project-1, .project-2 {
+    width: 45%;
+  }
+  .contact-info {
+    width: 40%;
+  }
+  .social-media {
+    padding-left: 6em;
+    width: 40%;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    margin: 3em 0 0;
+  }
+  .header {
+    margin: 0 5em 0 6.4em;
+  }
+  .my-logo {
+    width: 76px;
+  }
+  .nav-link {
+    padding: 1.6em;
+    font-size: 1.15em;
+    letter-spacing: 0.08em;
+  }
+  .intro-heading {
+    font-size: 2.8em;
+  }
+  .about-paragraph {
+    width: 476px;
+    line-height: 1.6;
+    font-size: 1.2em;
+  }
 
-}*/
+}

@@ -344,14 +344,14 @@ body, html {
   }
   .about-container {
     margin: 0 auto 1.2em;
-    padding-left: 12px;
+    padding-left: 16px;
     align-self: center;
   }
   .intro-heading {
     margin: 0;
   }
   .about-paragraph {
-    width: 430px;
+    width: 468px;;
   }
   .work-section {
     margin: 3em 0;
